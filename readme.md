@@ -16,4 +16,4 @@ Hi there
 
 
 
-- [Los angeles](![alt text](image.png))
+- ![Los angeles](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Los_Angeles_with_Mount_Baldy.jpg/330px-Los_Angeles_with_Mount_Baldy.jpg)
