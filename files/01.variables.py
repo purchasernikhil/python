@@ -6,6 +6,8 @@ mul = a * b
 div = a / b
 int_div = a // b
 mod_div = a % b 
+
+power = a ** b 
 print(total)
 print(diff)
 print(mul)
