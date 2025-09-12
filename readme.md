@@ -18,11 +18,16 @@ Hi there
 
 - ![Los angeles](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Los_Angeles_with_Mount_Baldy.jpg/330px-Los_Angeles_with_Mount_Baldy.jpg)
 
-'''ansible
-name: install nginx
-become: true
-tasks:
-ansible.builtin.yum:
-name: nginx
-state: installed
-'''
+```ansible
+- name: Install cart component
+  hosts: cart
+  become: yes
+  tasks:
+  - name: setup NPM source
+    ansible.builtin.shell: "curl -sL https://rpm.nodesource.com/setup_lts.x | bash"
+
+  - name: Install NodeJS
+    ansible.builtin.yum:
+      name: nodejs
+      state: installed
+```
