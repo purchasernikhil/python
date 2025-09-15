@@ -20,6 +20,8 @@
 #print(sample_str[-2:])  
 
 sample_str = "hyderabad and hyderabad, secunderabad are twin cities and i love living in hyderabad"
-print(sample_str[1::2])
+# print(sample_str[1::2])
 
-print(sample_str[::-1])
+# print(sample_str[::-1])
+sample_str[0] = "H" 
+print(sample-str)
